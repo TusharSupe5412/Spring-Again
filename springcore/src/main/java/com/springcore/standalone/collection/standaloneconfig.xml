@@ -14,11 +14,6 @@
    https://www.springframework.org/schema/util/spring-util.xsd
    ">
 
-	<util:list list-class="java.util.LinkedList">
-	
-	
-	</util:list>
-
 	<bean class="com.springcore.standalone.collection.Person" name="persons">
 	
 	
