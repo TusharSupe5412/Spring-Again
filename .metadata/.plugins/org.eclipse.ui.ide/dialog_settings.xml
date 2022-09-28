@@ -36,4 +36,10 @@
 		<item value="org.sonatype.m2e.buildhelper.feature:0.15.0.201207090124"/>
 		<item value="org.sonatype.m2e.mavenarchiver.feature:0.17.5.202002191804"/>
 	</list>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.m2e"/>
+		</list>
+	</section>
 </section>

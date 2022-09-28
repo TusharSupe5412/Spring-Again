@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Spring Again"/>
+			<item value="D:\Spring Again\springcore"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -13,7 +15,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="All Catalogs"/>
+		<item key="catalog" value="internal"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -25,13 +27,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.springcore"/>
+			<item value="com.springjdbc.com.springjdbc"/>
+			<item value="com.springjdbc"/>
 		</list>
 		<list key="groupId">
-			<item value="com.springcore"/>
+			<item value="com.springjdbc"/>
 		</list>
 		<list key="artifactId">
-			<item value="springcore"/>
+			<item value="com.springjdbc"/>
+			<item value="springjdbc"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -75,8 +79,9 @@
 			<item value="1.1"/>
 		</list>
 		<list key="repositoryUrl">
-			<item value=""/>
+			<item value="https://mvnrepository.com/artifact/org.apache.maven.archetypes/maven-archetype-quickstart/1.1"/>
 			<item value="https://mvnrepository.com/artifact/org.apache.maven.archetypes/maven-archetype-quickstart"/>
+			<item value=""/>
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
