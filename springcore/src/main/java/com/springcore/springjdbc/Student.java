@@ -1,4 +1,4 @@
-package com.springjdbc;
+package com.springcore.springjdbc;
 
 public class Student {
 

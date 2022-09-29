@@ -23,6 +23,13 @@
 		</property>
 	
 	</bean>
+	
+	<bean class="com.springcore.springjdbc.StudentDaoImpl" name="studentDaoImpl">
+		<property name="JdbcTemplate">
+			<ref bean="jdbcTemplate"/>
+		</property>
+		
+	</bean>
 
 
 </beans>
