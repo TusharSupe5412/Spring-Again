@@ -2,5 +2,6 @@ GitRepositoriesView.GitDirectories=D\:\\Spring Again\\.git;C\:\\Users\\Tushar Vi
 GitRepositoriesView.GitDirectories.relative=.git;C\:\\Users\\Tushar Vijay Supe\\git\\Spring-Again\\.git;
 RepositorySearchDialogSearchPath=C\:\\Users\\Tushar Vijay Supe\\git
 core_autoIgnoreDerivedResources=false
+core_git_servers=
 core_ssh_default_agent=\\\\.\\pageant
 eclipse.preferences.version=1

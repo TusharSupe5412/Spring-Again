@@ -3,7 +3,7 @@
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
 			<item value="D:\Spring Again"/>
-			<item value="D:\Spring Again\springcore"/>
+			<item value="D:\Spring Again\springmvc\META-INF"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -27,10 +27,19 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.spring.mvc"/>
+			<item value="com.spring.mv"/>
+			<item value="com.springmvc"/>
 		</list>
 		<list key="groupId">
+			<item value="com.spring.mvc"/>
+			<item value="com.spring.mv"/>
+			<item value="com.springmvc"/>
 		</list>
 		<list key="artifactId">
+			<item value="springmvc"/>
+			<item value="mv"/>
+			<item value="mvc"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -66,21 +75,69 @@
 	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
 		<list key="archetypeGroupId">
 			<item value="org.apache.maven.archetypes"/>
+			<item value="co.ntier"/>
 		</list>
 		<list key="archetypeArtifactId">
+			<item value="maven-archetype-webapp"/>
+			<item value="spring-mvc-archetype"/>
 			<item value="maven-archetype-quickstart"/>
 		</list>
 		<list key="archetypeVersion">
+			<item value="1.4"/>
+			<item value="1.0.2"/>
 			<item value="1.1"/>
 		</list>
 		<list key="repositoryUrl">
+			<item value=""/>
 			<item value="https://mvnrepository.com/artifact/org.apache.maven.archetypes/maven-archetype-quickstart/1.1"/>
 			<item value="https://mvnrepository.com/artifact/org.apache.maven.archetypes/maven-archetype-quickstart"/>
-			<item value=""/>
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="Spring-MVC"/>
+			<item value="spring.contact"/>
+			<item value="ContactManager"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Spring-MVC"/>
+			<item value="ContactManager"/>
+			<item value="spring.contact"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="667"/>
+		<item key="x" value="720"/>
+		<item key="y" value="66"/>
 	</section>
 </section>
